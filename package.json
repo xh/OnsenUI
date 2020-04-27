@@ -1,5 +1,5 @@
 {
-  "name": "onsenui",
+  "name": "@xh/onsenui",
   "version": "2.10.10",
   "description": "HTML5 Mobile Framework & UI Components",
   "private": false,
@@ -18,14 +18,9 @@
     "js",
     "esm"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/OnsenUI/OnsenUI"
-  },
+  "repository": "github:xh/OnsenUI",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/OnsenUI/OnsenUI/issues"
-  },
+  "bugs": "https://github.com/xh/OnsenUI/issues",
   "keywords": [
     "phonegap",
     "cordova",
