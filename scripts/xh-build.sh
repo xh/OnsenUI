@@ -31,13 +31,13 @@ fi
 (cd $distrepo && git rm -r * --cached --ignore-unmatch 1>/dev/null && rm -rf *)
 
 echo "* $(tput setaf 3)Installing dependencies of css-components$(tput setaf 7)..."
-(cd css-components && npm install --build-from-source)
+(cd css-components && yarn install)
 echo "** $(tput setaf 2)Finished$(tput setaf 7)!"
 
 echo "* $(tput setaf 3)Preparing OnsenUI$(tput setaf 7)..."
 
-npm install --build-from-source
-(cd bindings/angular1 && npm install --build-from-source)
+yarn install
+(cd bindings/angular1 && yarn install)
 node_modules/.bin/gulp dist
 
 echo "** $(tput setaf 2)Finished$(tput setaf 7)!"
