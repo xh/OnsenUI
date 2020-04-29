@@ -1,6 +1,6 @@
 {
   "name": "@xh/react-onsenui",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Onsen UI - React Components for Hybrid Cordova/PhoneGap Apps with Material Design and iOS UI components",
   "scripts": {
     "build": "cross-env NODE_ENV=production rollup -c",
@@ -89,7 +89,7 @@
     "webpack": "^2.6.1"
   },
   "peerDependencies": {
-    "onsenui": "~2.10.6",
+    "@xh/onsenui": "^0.1.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
   },

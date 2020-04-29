@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import ons from 'onsenui';
+import ons from '@xh/onsenui';
 
 class BasicComponent extends React.Component {
   constructor(...args) {
