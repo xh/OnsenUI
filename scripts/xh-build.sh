@@ -2,13 +2,12 @@
 
 # This is a modified version of dist-release.sh, with the following changes:
 #
-#	+ 	Uses `npm install --build-from-source` rather than `yarn install`,
-#		as a workaround for a node-gyp issue.
+#	+	Also builds react-onsenui
 #	+	Removes support for the "no-build" flag
 #	+	Skips running tests.
 #	+	Skips creating a version release commit.
 #
-# Note that this script expects node v10.12.0 and globally installed Gulp CLI.
+# Note that this script expects globally installed Gulp CLI.
 # (i.e. run `npm install --global gulp-cli`)
 
 set -e
@@ -40,4 +39,8 @@ yarn install
 (cd bindings/angular1 && yarn install)
 node_modules/.bin/gulp dist
 
+echo "** $(tput setaf 2)Finished$(tput setaf 7)!"
+
+echo "* $(tput setaf 3)Preparing React-OnsenUI$(tput setaf 7)..."
+(cd bindings/react && yarn install)
 echo "** $(tput setaf 2)Finished$(tput setaf 7)!"
