@@ -1,7 +1,6 @@
 {
   "name": "@xh/onsenui",
-  "version": "0.1.2",
-  "description": "HTML5 Mobile Framework & UI Components",
+  "version": "0.1.3",
   "private": false,
   "scripts": {
     "build": "(cd bindings/angular1 && yarn install) && gulp build",
@@ -21,21 +20,6 @@
   "repository": "github:xh/OnsenUI",
   "license": "Apache-2.0",
   "bugs": "https://github.com/xh/OnsenUI/issues",
-  "keywords": [
-    "phonegap",
-    "cordova",
-    "web-components",
-    "react",
-    "components",
-    "angular",
-    "vue",
-    "hybrid",
-    "app",
-    "ui",
-    "mobile",
-    "onsen",
-    "onsenui"
-  ],
   "homepage": "https://onsen.io/",
   "babel": {
     "presets": [

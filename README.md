@@ -1,3 +1,10 @@
+Please note that this package has been forked from https://github.com/OnsenUI/OnsenUI
+
+The motivation for the fork was to include a workaround for deprecated react lifecycle methods: https://github.com/OnsenUI/OnsenUI/issues/2680
+
+This package is not recommended for use outside of https://xh.io projects and client engagements.
+
+--- 
 
 <p align="center"><a href="https://onsen.io/" target="_blank"><img width="140" src="https://onsenui.github.io/art/logos/onsenui-logo-1.png"></a></p>
 
@@ -10,7 +17,7 @@
   <a href="https://cdnjs.com/libraries/onsen"><img src="https://img.shields.io/cdnjs/v/onsen.svg" alt="CDNJS"></a>
 </p>
 
-# [Onsen UI](https://onsen.io/) - Cross-Platform Hybrid App and PWA Framework
+## [Onsen UI](https://onsen.io/) - Cross-Platform Hybrid App and PWA Framework
 
 Onsen UI is an <strong>open source</strong> framework that makes it easy to create native-feeling Progressive Web Apps (PWAs) and hybrid apps.
 

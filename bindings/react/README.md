@@ -1,3 +1,11 @@
+Please note that this package has been forked from https://github.com/OnsenUI/OnsenUI
+
+The motivation for the fork was to include a workaround for deprecated react lifecycle methods: https://github.com/OnsenUI/OnsenUI/issues/2680
+
+This package is not recommended for use outside of https://xh.io projects and client engagements.
+
+--- 
+
 [![npm version](https://badge.fury.io/js/react-onsenui.svg)](https://badge.fury.io/js/react-onsenui)
 
 # Onsen UI - React Components for Cordova/PhoneGap hybrid apps
